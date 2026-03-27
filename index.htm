@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 
     <head>
-        <title>My Internet Programming Site</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Angelos' InterProg Index</title>
+        <link rel="icon" type="image/x-icon" href="Images/bear_doodle.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body
+            {
+                background-color: #555555;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .link-container
+            {
+                background-color: rgb(225, 225, 225);
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                border-radius: 15px;
+                padding: 30px;
+                text-align: center;
+                width: 100%;
+                max-width: 400px;
+            }
+
+            .profile-img
+            {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 20px;
+            }
+
+            .btn-primary
+            {
+                background-color: #ff9500;
+                border-color: #ff9500;
+            }
+
+            .btn-primary:hover
+            {
+                background-color: #e68600;
+                border-color: #e68600;
+            }
+
+            .btn-custom
+            {
+                margin: 8px 0;
+                width: 100%;
+            }
+        </style>
     </head>
 
     <body>
-        <h1>Hello World</h1>
-        <p>This site is hosted on GitHub Pages.</p>
-    </body>
 
+        <div class="link-container">
+            <img src="Images/bear_doodle.jpg" class="profile-img mb-3" alt="Profile">
+            <h4><strong>Angelos Tsompanis</strong></h4>
+            <h5>'Internet Programming' Lab Index</h5>
+
+            <a href="https://github.com/Arkoudios/InterProg-Lab" class="btn btn-primary btn-custom">GitHub Repository</a>
+            <a href="bio.htm" class="btn btn-secondary btn-custom">CV Example</a>
+        </div>
+
+    </body>
 </html>
